@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask / general
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+*.eggs/
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.bak
+*.swp
